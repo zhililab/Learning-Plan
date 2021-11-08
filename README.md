@@ -6,3 +6,21 @@
 
 PS: 涉及技术内容可能有误，欢迎批评指正交流。
 
+
+
+主要内容（排名不分先后）:
+
+- Programming
+  - C++
+  - Python
+  - Go
+- DevOps
+  - CI/CD
+  - Build
+  - Container
+  - Configuration
+- ComputerGraphics）
+- Others
+
+
+
