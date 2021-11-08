@@ -19,7 +19,7 @@ PS: 涉及技术内容可能有误，欢迎批评指正交流。
   - Build
   - Container
   - Configuration
-- ComputerGraphics）
+- ComputerGraphics
 - Others
 
 
