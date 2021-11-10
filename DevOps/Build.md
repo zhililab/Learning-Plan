@@ -2,13 +2,15 @@
 
 ## O3DE
 
-o3de 基于cmake 构建
+1. 普通编译
+o3de 基于cmake 构建 [Github: O3DE](https://github.com/o3de/o3de)
 
 ```shell
 cmake -B <your build path> -S <your source path> -G "Visual Studio 16" -DLY_3RDPARTY_PATH=<3rdParty cache path> -DLY_UNITY_BUILD=ON -DLY_PROJECTS=AutomatedTesting 
 cmake --build <your build path> --target AutomatedTesting.GameLauncher AssetProcessor Editor --config profile -- /m
 ```
 
+2. 分布式加速编译构建
 使用 IncrediBuild 分布式编译加速构建 —— 全量构建 32min
 
 ```
