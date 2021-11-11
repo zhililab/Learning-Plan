@@ -20,7 +20,7 @@ e.g windows - msbuild(vc++) - msi
 
 其次，当前构建工具/工具链包括但不限于下列：
 
-![image-20211111224524721](C:\Users\lz123\AppData\Roaming\Typora\typora-user-images\image-20211111224524721.png)
+![image-20211111224524721](https://wx1.sinaimg.cn/bmiddle/61662705gy1gwbluf2jpgj20le0b078g.jpg)
 
 <center>O3DE Conferences<center/>
 
