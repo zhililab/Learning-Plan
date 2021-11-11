@@ -1,13 +1,45 @@
 # Build
 
-## O3DE 
 
-[Github: O3DE](https://github.com/o3de/o3de)
+
+## Workflows (工作流)
+
+平台 - 工具链 - 目标产物
+
+e.g windows - msbuild(vc++) - msi 
+
+首先，我们看平台，当前主流平台包括但不限于下列：
+
+- Windows (Mircosoft) 
+- Mac (Apple)
+- Linux
+- Android
+- iOS 
+- Console (Xbox / PS / Switch )
+- Web (Chronium / Firefox ...)
+
+其次，当前构建工具/工具链包括但不限于下列：
+
+![image-20211111224524721](C:\Users\lz123\AppData\Roaming\Typora\typora-user-images\image-20211111224524721.png)
+
+<center>O3DE Conferences<center/>
+
+最后，构建完成后制品打包：
+
+- CPack / vcpkg (C++)
+- vcpkg / wix (Windows)
+- Webpack / Gulp / Grunt (Web)
+
+---
+
+## Building the Open-Sources (构建开源软件)
+
+#### [Github: O3DE](https://github.com/o3de/o3de)
 
 ![image](https://user-images.githubusercontent.com/11768073/141129945-e8408469-7252-4913-9014-116720fd09d1.png)
 
 1. 普通编译
- 
+
 ```shell
 cmake -B <your build path> -S <your source path> -G "Visual Studio 16" -DLY_3RDPARTY_PATH=<3rdParty cache path> -DLY_UNITY_BUILD=ON -DLY_PROJECTS=AutomatedTesting 
 cmake --build <your build path> --target AutomatedTesting.GameLauncher AssetProcessor Editor --config profile -- /m
