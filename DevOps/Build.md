@@ -8,7 +8,7 @@
 
 e.g windows - msbuild(vc++) - msi 
 
-首先，我们看平台，当前主流平台包括但不限于下列：
+① 首先，我们看平台，当前主流平台包括但不限于下列：
 
 - Windows (Mircosoft) 
 - Mac (Apple)
@@ -18,19 +18,15 @@ e.g windows - msbuild(vc++) - msi
 - Console (Xbox / PS / Switch )
 - Web (Chronium / Firefox ...)
 
-其次，当前构建工具/工具链包括但不限于下列：
+② 其次，当前构建工具/工具链包括但不限于下列：
 
 ![image-20211111224524721](https://wx1.sinaimg.cn/bmiddle/61662705gy1gwbluf2jpgj20le0b078g.jpg)
 
-<center>O3DE Conferences<center/>
-
-最后，构建完成后制品打包：
+③ 最后，构建完成后制品打包：
 
 - CPack / vcpkg (C++)
 - vcpkg / wix (Windows)
 - Webpack / Gulp / Grunt (Web)
-
----
 
 ## Building the Open-Sources (构建开源软件)
 
